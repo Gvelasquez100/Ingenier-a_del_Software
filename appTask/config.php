@@ -1,7 +1,7 @@
 <?php
     
     // Variables de la conexion a la DB
-    $mysqli = new mysqli("127.0.0.1:3306","root","root","db_gestor");
+    $mysqli = new mysqli("roundhouse.proxy.rlwy.net:52958","root","XGeQjkoGJZdFCHtGrbrCYCcZDzVWZmpT","db_gestor");
     
     // Comprobamos la conexion
     if($mysqli->connect_errno) {
