@@ -153,7 +153,7 @@
 
     </div>
 
-    <script>
+<script>
         var app = new Vue({
             el: '#app',
             data: {
@@ -206,7 +206,7 @@
                         alert("Llenar los campos.");
                     }
                 },
-//editar
+
                 editUsuario: function(index, id_usuario) {
                     var nombre_usuario = this.nombre_usuario;
                     var correo_usuario = this.correo_usuario;
@@ -245,7 +245,7 @@
                         id_usuario: id_usuario
                     })
                     .then(function(response) {
-                        app.usuarios.splice(index, 1);
+                        app.usuario.splice(index, 1);
                         alert(response.data);
                     })
                     .catch( function(error) {
