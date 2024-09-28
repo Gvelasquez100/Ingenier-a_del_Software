@@ -2,7 +2,7 @@
     
     // Variables de la conexion a la DB
     //$mysqli = new mysqli("127.0.0.1:3306","root","root","db_gestor"); //pruebas
-    $mysqli = new mysqli("monorail.proxy.rlwy.net:37979","root","QYknGkzhCrHRctLkLrnLyeZmjXdBssGR","db_gestor"); //servidor
+    $mysqli = new mysqli("autorack.proxy.rlwy.net:27254","root","aboRYhGGmKPgbMxJVXXPGxSvfzAWCOYg","db_gestor1"); //servidor
     
     // Comprobamos la conexion
     if($mysqli->connect_errno) {
